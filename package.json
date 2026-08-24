@@ -1,0 +1,16 @@
+{
+  "name": "automation-exercises-beginner-1",
+  "version": "1.0.0",
+  "description": "Playwright (TypeScript) scripts for the tutorialspoint.com Selenium practice site exercises (Tasks 103-110, 114)",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^26.2.0",
+    "typescript": "^5.5.0"
+  }
+}
